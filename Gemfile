@@ -42,6 +42,8 @@ gem 'annotate' #加入schema
 gem 'bootstrap-sass'
 gem 'devise' #login/out
 gem 'simple_form'
+gem 'carrierwave'
+gem 'mini_magick'
 
 
 
