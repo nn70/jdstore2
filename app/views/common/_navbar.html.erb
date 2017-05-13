@@ -13,6 +13,11 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
+                  <%= link_to "#" do %>
+                  Cart <i class="fa fa-shopping-cart fa-lg"></i> ( <%= current_cart.products.count %> )
+                  <% end %>
+                </li>
+                <li>
                   <% if !current_user %>
                     <li><%= link_to("注册", new_user_registration_path) %> </li>
                     <li><%= link_to("登入", new_user_session_path) %></li>
